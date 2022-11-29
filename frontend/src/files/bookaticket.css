@@ -1,0 +1,28 @@
+.bookaticket{
+    margin: 60px 100px 80px 100px; 
+    color: var(--primaryBlue);
+}
+
+.contact-details-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.repeat-passenger-container{
+    padding: 40px 0px;
+}
+
+.repeat-passenger-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px 0px;
+}
+
+.repeat-passenger-flex-child{
+    flex:1;
+    margin: auto;
+}

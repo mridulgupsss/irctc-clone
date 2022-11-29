@@ -1,0 +1,144 @@
+:root{
+    --primaryBlue: #1976D2;
+    --secondaryRed: #EF5350;
+    --secondaryBlue: #03A9F4;
+    --secondaryGreen: #4CAF50;
+    --bgWhite: #FDFDFF;
+    --bgBlack: #363636;
+    --bgBlue: #E7F1FF;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+html {font-size: 112.5%;} /*18px*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  font-size: 18px;
+  background-color: var(--bgWhite);
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {font-size: 2.441rem;}
+
+h3 {font-size: 1.953rem;}
+
+h4 {font-size: 1.563rem;}
+
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
+
+.login_page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_login {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bgBlue);
+}
+
+.login_main {
+    display: flex;
+    height: 996px;
+}
+
+.train_image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.login_input {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.train_image img{
+    width: 100%;
+    margin: 0px;
+    object-fit: contain;
+}
+
+.homepage_main {
+    display: flex;
+}
+
+.train_query {
+    display: flex;
+    flex: 1;
+    justify-content: center ;
+}
+
+.train_image_homepage {
+    flex: 1;
+}
+
+
+.admin_login {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.change_password {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.all_routes {
+    display: flex;
+    justify-content: center;
+}
+
+.all_routes_table {
+    height: 400;
+    width: "100%"
+}
+
+.datagrid-containter{
+    margin: 60px 100px 80px 100px;
+    color: var(--primaryBlue);
+}
+
+.delete_train {
+    display: flex;
+    justify-content: center;
+}
+
+
+.delete_train_input {
+    padding-top: 80px;
+    padding-bottom: 80px    ;
+}
+
+.change_password{
+    color: var(--primaryBlue);
+}

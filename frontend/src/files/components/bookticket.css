@@ -1,0 +1,39 @@
+.bookticket{
+    color: var(--primaryBlue);
+    display: flex;
+    flex-direction: column;
+    padding: 60px 100px 35px 100px;
+}
+
+.flex-child{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-10-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ticket-from-flex{
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.ticket-from-flex-child{
+    flex: 1;
+    margin: auto;
+}
+
+.ticket-date{
+    width: 198.2px;
+    height: 24.8px;
+    padding: 16.5px 14px;
+    border-radius: 5px;
+    border: 1px     #bdbdbd solid;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}

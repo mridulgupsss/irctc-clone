@@ -1,0 +1,24 @@
+.tickets-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1976D2;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.ticket-information {
+    display: flex;
+}
+
+.ticket-information-30 {
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px   ;
+}
+
+.ticket-child{
+    flex: 1;
+    margin: auto;
+    padding: 30px 30px 10px 30px;
+}

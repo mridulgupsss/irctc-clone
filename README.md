@@ -1,4 +1,7 @@
-# IROR - DBMS PROJECT
+# DBMS PROJECT
+
+# IROR : Indian Railway Online Reservation System
+
 
 # Problem Statement
 

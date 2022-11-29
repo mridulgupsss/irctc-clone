@@ -1,0 +1,35 @@
+.navbar_main {
+    display: flex;
+    background-color: var(--bgBlue);
+    color: var(--primaryBlue);
+    padding: 10px 0px;
+}
+
+.iror {
+    flex : 1;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.iror a:visited{
+    color: var(--primaryBlue);
+}
+
+.margin-auto{
+    margin: auto 0px;
+}
+
+
+.a-link:visited{
+    color: var(--primaryBlue);
+}
+
+.nav_buttons_C {
+    flex : 2;
+    display: flex;
+    margin: auto;
+    padding-right: 100px;
+    flex-direction: row-reverse;
+    gap: 40px;
+}
+

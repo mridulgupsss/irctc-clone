@@ -1,0 +1,39 @@
+:root{
+    --primaryBlue: #1976D2;
+    --secondaryRed: #EF5350;
+    --secondaryBlue: #03A9F4;
+    --secondaryGreen: #4CAF50;
+    --bgWhite: #FDFDFF;
+    --bgBlack: #363636;
+    --bgBlue: #E7F1FF;
+}
+
+.footer_main {
+    background-color: var(--bgBlack);
+    color: var(--bgWhite);
+    padding: 30px 0px;
+}
+
+.footer_content {
+    display: flex;
+    margin: 0px 100px;
+    gap: 30px;
+}
+
+.footer_flex{
+    flex:1;
+}
+
+.center {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.footer_end{
+    font-size: 0.8rem;
+    display: flex;
+    margin: 5px 100px;
+}

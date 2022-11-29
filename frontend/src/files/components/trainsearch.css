@@ -1,0 +1,36 @@
+.trainsearch{
+    color: var(--primaryBlue);
+    background-color: var(--bgBlue);
+    display: flex;
+    flex-direction: column;
+    padding: 35px 100px 50px 100px;
+}
+
+.margin-10-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-for-flex{
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.search-for-flex-child-1{
+    flex: 1;
+    margin: auto;
+}
+
+.search-for-flex-child-3{
+    flex: 3;
+    margin: auto;
+}
+
+.white-button{
+    background-color: #fff;
+}
+
+.content{
+    background-color: #fff;
+}

@@ -1,0 +1,40 @@
+.trainSchedule{
+    color: #1976D2;
+    margin: 0;
+    padding: 0;
+}
+
+.H1 {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 30  px;
+}
+
+.info p {
+    margin-top: 20px;
+}
+
+.content {
+    border-collapse: collapse;
+    border: 1px solid #1976D2;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+th{
+    padding: 15px 30px;
+}
+
+td{
+    border-top: 1px solid #1976D2;
+    padding: 15px 30px;
+}

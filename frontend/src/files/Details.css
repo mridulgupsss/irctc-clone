@@ -1,0 +1,47 @@
+.trainDetails{
+    color: #1976D2;
+    margin: 0;
+    padding: 0;
+}
+
+.information {
+    display: flex;
+    border: 1px solid #1976D2;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.booking {
+    display: flex;
+}
+
+.book {
+    width: 25%;
+}
+
+.data {
+    width: 25%;
+    margin: auto;
+    padding: 15px 30px;
+}
+
+.box{
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+}
+
+.Dbutton {
+    margin-right: 25px;
+    background-color: #03A9F4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    height: 51px;
+}
+
+h4, h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

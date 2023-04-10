@@ -53,15 +53,11 @@ The Ministry of Railways of the Government of India owns Indian Railways, a lega
 
 # ER Model
 
-## Removal of Non-Binary Relationship
-
-![IROR-Removing-Non-Binary-Relationships.png](images/IROR-Removing-Non-Binary-Relationships.png)
-
 ## Adding Attributes to Entities
 
 ![IROR-ER.png](images/IROR-ER.png)
 
-# Relation Model and Normalization
+# Relation Model 
 
 ![IROR-Pre-ER.png](images/IROR-Pre-ER.png)
 
@@ -73,55 +69,6 @@ The Ministry of Railways of the Government of India owns Indian Railways, a lega
 | Tickets | TicketID, TrainID, RouteID, UserID, NoOfPassengers, SourceStation, DestinationStation, ContactNo, Email, Price |
 | Passengers | PassengerID, TicketID, Name, Age, Gender |
 
-## Normalized Tables
-
-### Users
-
-UserID → Email, ContactNo, FirstName, LastName, Password
-
-Email → UserID
-
-ContactNo → UserID
-
-**Candidate Keys: {**UserID**}, {**Email**}, {**ContactNo**}**
-
-**Primary Keys: {**UserID**}**
-
-### Trains
-
-TrainsID → TrainName, RunsOn, StartTime, TotalSeats
-
-TrainName → TrainsID
-
-**Candidate Keys: {**TrainID**}, {**TrainName**}**
-
-**Primary Keys: {**TrainID**}**
-
-### Routes
-
-RouteID, TrainID, Station → TimeFromStart, RemainningSeats, Date
-
-**Candidate Keys: {**RouteID, TrainID, Station**}**
-
-**Primary Keys: {**RouteID, TrainID, Station**}**
-
-### Tickets
-
-TicketID → TrainID, RouteID, UserID, NoOfPassengers, SourceStation, DestinationStation, ContactNo, Email, Price
-
-TrainID, RouteID, UserID → TicketID
-
-**Candidate Keys: {**TicketID**}, {**TrainID, RouteID, UserID**}**
-
-**Primary Keys: {**TicketID**}**
-
-### Passengers
-
-PassengerID → TicketID, Name, Age, Gender
-
-**Candidate Keys: {**PassengerID**}**
-
-**Primary Keys: {**PassengerID**}**
 
 # Backend
 

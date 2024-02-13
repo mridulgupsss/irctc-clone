@@ -51,12 +51,6 @@ The Ministry of Railways of the Government of India owns Indian Railways, a lega
 - IROR also offers its users data security.
 
 
-# ER Model
-
-## Adding Attributes to Entities
-
-![IROR-ER.png](images/IROR-ER.png)
-
 # Relation Model 
 
 ![IROR-Pre-ER.png](images/IROR-Pre-ER.png)
